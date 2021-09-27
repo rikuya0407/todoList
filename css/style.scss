@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+main{
+    & .todo{
+        width: 200px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    & .btn{
+        cursor: pointer;
+    }
+
+    // .out-sider{
+    //     margin: 0 auto;
+    //     width:100%;
+    //     text-align: center;
+    // }
+    & .lists{
+        width:100%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0;
+
+        & li{
+            // text-align: left;
+            list-style: none;
+            font-size: 24px;
+        }
+    }
+
+}
+
+.delete{
+    margin-left: 30px;
+}
