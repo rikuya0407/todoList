@@ -33,7 +33,7 @@ main .lists li {
   font-size: 24px;
 }
 
-.delete {
+main .lists li .delete {
   margin-left: 30px;
 }
 /*# sourceMappingURL=style.css.map */
